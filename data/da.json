@@ -1,0 +1,51 @@
+{
+  "profile": {
+    "name": "Kaite Yuan",
+    "img_src": "/images/profile_picture.png",
+    "self_intro": "Hi, I'm Gordon Felix, a Web Developer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt."
+  },
+  "works": {
+    "work_1": {
+      "id": 1,
+      "title": "Your Stories",
+      "img_src": "/images/work_1.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "front"
+    },
+    "work_2": {
+      "id": 2,
+      "title": "Your Stories",
+      "img_src": "/images/work_2.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "back"
+    },
+    "work_3": {
+      "id": 3,
+      "title": "Your Stories",
+      "img_src": "/images/work_3.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "front"
+    },
+    "work_4": {
+      "id": 4,
+      "title": "Your Stories",
+      "img_src": "/images/work_4.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "back"
+    },
+    "work_5": {
+      "id": 5,
+      "title": "Your Stories",
+      "img_src": "/images/work_5.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "front"
+    },
+    "work_6": {
+      "id": 6,
+      "title": "Your Stories",
+      "img_src": "/images/work_6.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt.",
+      "state": "back"
+    }
+  }
+}

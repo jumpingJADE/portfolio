@@ -1,24 +1,15 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import './src/css/style.css'
+import { Profile } from './src/js/profile'
+import { profile, works } from './data/da.json'
+import { Work } from './src/js/pages'
+// common element  
+// profile page
+const profileContainer = document.querySelector('.book-page.page-left')
+const personalpage = new Profile(profile.name, profile.img_src, profile.self_intro).build()
+profileContainer.appendChild(personalpage)
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
-
-setupCounter(document.querySelector('#counter'))
+// 1-2 pages
+const page1_2_container = document.querySelector('#turn-1')
+const page1 = new Work(works.work_1.id, works.work_1.title, works.work_1.img_src, works.work_1.description, works.work_1.state).build()
+console.log(page1);
+page1_2_container.appendChild(page1)

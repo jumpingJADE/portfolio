@@ -4,13 +4,14 @@ export class Work {
     this.title = title;
     this.img_src = img_src;
     this.description = description;
-    this.state = state; // 使用 'state' 以匹配你的数据库字段
+    this.state = state;
   }
 
   build() {
     const work = document.createElement('div');
-    work.classList.add(`page-${this.state}`); // 使用 `state` 来设置类名
-
+    work.classList.add(`page-${this.state}`);
+    // calculate turn id
+    const turnId = Math.ceil(this.id / 2);
     // 设置 HTML 内容
     work.innerHTML = `
       <h1 class="title">${this.title}</h1>
@@ -25,8 +26,8 @@ export class Work {
       </div>
       <span class="number-page">${this.id}</span>
       <!-- next button -->
-      <span class="nextprev-btn" data-page="turn-${this.id}">
-          <i class='bx bx-chevron-right'></i>
+      <span class="nextprev-btn ${this.state === 'front' ? '' : 'back'}" data-page="turn-${turnId}">
+      <i class='bx bx-chevron-${this.state === 'front' ? 'right' : 'left'}'></i>
       </span>
     `;
 

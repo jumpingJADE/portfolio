@@ -1,9 +1,9 @@
 {
   "profile": {
-    "name": "Elden Ring",
+    "name": "Richard Jin",
     "img_src": "/images/profile_picture.png",
-    "title": "High School Student",
-    "self_intro": "Hi, I'm Elden Ring, a good Designer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt."
+    "title": "Web Developer",
+    "self_intro": "Hi, I'm Richard Jin, a good developer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem cum ipsa id qui iusto ipsum quam at beataeillo eaque repellat repudiandae culpa eius eveniet, sequi tempore dignissimos deserunt."
   },
   "works": {
     "work_1": {
